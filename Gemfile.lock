@@ -98,6 +98,7 @@ GEM
       faraday (>= 1.0.0)
       faraday_middleware
       hashie
+    pg (1.2.3-x64-mingw32)
     puma (4.3.7)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -156,7 +157,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     telegram-bot (0.15.1)
       actionpack (>= 4.0, < 6.2)
       activesupport (>= 4.0, < 6.2)
@@ -181,12 +181,12 @@ DEPENDENCIES
   byebug
   geocoder
   open-weather-ruby-client
+  pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   redis
   redis-rails
   redis-store
-  sqlite3 (~> 1.4)
   telegram-bot
   timezone
   tzinfo-data
