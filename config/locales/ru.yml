@@ -1,0 +1,26 @@
+ru:
+  errors:
+    unknow_error: |
+      Неизвестная ошибка.
+  geocoder:
+    not_found:
+      content: |
+        Неизвестное место. Попробуй еще раз.
+  telegram_webhooks:
+    action_missing:
+      command: "Незивестная команда: /%{command}"
+    help:
+      content: |
+        Отправьте название города
+    start:
+      content: |
+        Просто отправьте название города
+    message:
+      content: |
+        Здравствуй, %{user_name}
+
+        %{city_name} %{country_emoji}
+
+        Утром: %{morning_temperature} °C %{morning_emoji}
+        Днем: %{day_temperature} °C %{day_emoji}
+        Вечером: %{evening_temperature} °C %{evening_emoji}

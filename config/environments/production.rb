@@ -102,4 +102,8 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  
+  # Configure session store for telegram bot.
+    config.telegram_updates_controller.session_store = :file_store,
+    Rails.root.join('tmp', 'session_store')
 end
