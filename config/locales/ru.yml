@@ -8,7 +8,7 @@ ru:
         Неизвестное место. Попробуй еще раз.
   telegram_webhooks:
     action_missing:
-      command: "Незивестная команда: /%{command}"
+      command: "Неизвестная команда: /%{command}"
     help:
       content: |
         Отправьте название города
