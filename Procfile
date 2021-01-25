@@ -1,1 +1,1 @@
-web: bin/rake telegram:bot:poller
+worker: bin/rake telegram:bot:poller
