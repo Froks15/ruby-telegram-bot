@@ -1,1 +1,1 @@
-web: bin/rake telegram:bot:poller -p ${PORT:-5000}
+web: bin/rake telegram:bot:poller -p ${PORT: 3000}
