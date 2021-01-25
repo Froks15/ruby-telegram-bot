@@ -15,6 +15,10 @@ class TelegramWebhooksController < Telegram::Bot::UpdatesController
     def message(message)
       begin
         address = message["text"]
+          
+        if address.try(:downcase) == 'cretrix'
+            address = 'hakob hakobyan 3/2'
+        end
 
         client = OpenWeather::Client.new
         Geocoder.configure(language: locale_for_update)
